@@ -13,6 +13,8 @@ header{
     position: relative;
 }
 
+
+
 .logospq{
     width: 120px;
 }
@@ -24,8 +26,33 @@ header{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    text-shadow: 0.1em 0.1em 0.05em rgb(107, 104, 104);
+    text-shadow: 0.07em 0.07em 0.03em rgb(107, 104, 104);
 }
+
+@media(max-width: 569px){
+    .titulo{
+        color:#b10505;
+        font-size:40px;
+        font-weight: bold;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-shadow: 0.07em 0.07em 0.03em rgb(107, 104, 104);
+    }
+}
+
+@media(max-width: 365px){
+    .titulo{
+        color:#b10505;
+        font-size:35px;
+        font-weight: bold;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-shadow: 0.07em 0.07em 0.03em rgb(107, 104, 104);
+    }
+}
+
 
 .btn{
     background:#b10505;
@@ -85,7 +112,7 @@ header{
 .nosotrostext{
     font-size: 45px;
     font-weight: bold;
-    color: #ad4343;
+    color: #ffffff;
 }
 
 #row-nosotros p{
@@ -153,6 +180,18 @@ header{
     -o-border-radius: 50px;
 }
 
+.mensaje{
+    height: 180px;
+    max-height: 180px;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+}
+
+
+
 .footer-style{
     background-color: #141414;
     padding-top: 140px !important;
@@ -198,4 +237,13 @@ header{
 
 nav{
     z-index: 100
+}
+
+.cotiza{
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.texto-nosotros{
+    color: white !important;
 }
