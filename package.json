@@ -4,17 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jand9402/jand9402.github.io.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jand9402/jand9402.github.io/issues"
   },
-  "homepage": "https://github.com/jand9402/jand9402.github.io#readme"
+  "homepage": "https://github.com/jand9402/jand9402.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemailer": "^6.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
